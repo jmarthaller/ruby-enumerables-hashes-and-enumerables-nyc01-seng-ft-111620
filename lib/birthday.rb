@@ -62,7 +62,11 @@
 
 
 
-def ha
+def happy_birthday(birthday_kids)
+  birthday_kids.each do |kid_name, age|
+    puts "Happy Birthday #{kid_name}! You are #{age}!"
+  end
+end
 
 
 
